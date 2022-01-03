@@ -131,12 +131,12 @@ function handleComputerArcher() {
       var move = random(moves);
       var angleValue;
 
-      if (move === "UP" && computerArcher.body.angle < 1.87) {
+      if (move === "LEFT" && computerArcher.body.angle < 1.87) {
         angleValue = 0.1;
       }else{
           angleValue = -0.1;
       }
-      if(move === "DOWN" && computerArcher.body.angle > 1.47) {
+      if(move === "Right" && computerArcher.body.angle > 1.47) {
         angleValue = -0.1;
       }else{
           angleValue = 0.1;
